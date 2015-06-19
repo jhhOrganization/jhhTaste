@@ -30,4 +30,24 @@ public class Administrator extends User{
 	public boolean removePermission(String permission){
 		return this.permissions.remove(permission);
 	}
+
+        public ArrayList<String> getPermissions()
+        {
+                return permissions;
+        }
+
+        public void setPermissions(ArrayList<String> permissions)
+        {
+                this.permissions = permissions;
+        }
+
+        public ArrayList<String> getRole()
+        {
+                return role;
+        }
+
+        public void setRole(ArrayList<String> role)
+        {
+                this.role = role;
+        }
 }

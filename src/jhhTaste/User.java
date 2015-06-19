@@ -19,4 +19,46 @@ public class User {
 		this.password = password;
 		this.loginStatus = loginStatus;
 	}
+
+        public void setName(String)
+        {
+		this.name = name;
+        }
+        public void setEmail(String)
+        {
+		this.email = email;
+        }
+        public void setUserName(String)
+        {
+		this.userName = userName;
+        }
+        public void setPassword(String)
+        {
+		this.password = password;
+        }
+        public void setLoginStatus(String)
+        {
+		this.loginStatus = loginStatus;
+        }
+
+        public String getName()
+        {
+                return name;
+        }
+        public String getEmail()
+        {
+                return email;
+        }
+        public String getUserName()
+        {
+                return userName;
+        }
+        public String getPassword()
+        {
+                return password;
+        }
+        public String getLoginStatus()
+        {
+                return loginStatus;
+        }
 }

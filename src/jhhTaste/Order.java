@@ -19,4 +19,46 @@ public class Order {
 		this.status = status;
 		this.bill = bill;
 	}
+
+        public void setOrderId(int orderId)
+        {
+                this.orderId = orderId;
+        }
+        public void setCreationDate(Date creationDate)
+        {
+                this.creationDate = creationDate;
+        }
+        public void setdateShipped(String dateShipped)
+        {
+                this.dateShipped = dateShipped;
+        }
+        public void setStatus(String status)
+        {
+                this.status = status;
+        }
+        public void setBill(Bill bill)
+        {
+                this.bill = bill;
+        }
+
+        public int getOrderId()
+        {
+                return orderId;
+        }
+        public Date getCreationDate()
+        {
+                return creationDate;
+        }
+        public String getDateShipped()
+        {
+                return dateShiped;
+        }
+        public String getStatus()
+        {
+                return status;
+        }
+        public Bill getBill()
+        {
+                return bill;
+        }
 }
