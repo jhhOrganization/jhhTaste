@@ -7,5 +7,4 @@ public class Product {
 	private String category;
 	private String description;
 	private ArrayList<Order> orders;
-	
 }

@@ -7,9 +7,7 @@ public class Customer extends User{
 	private ArrayList<String> interest;
 	private String postalAddress;
 	private ArrayList<Order> orders;
-	
 
-	
 	public Customer(String name, String email, String userName,
 			String password, String loginStatus, long creditCard,
 			ArrayList<String> interest, String postalAddress,
@@ -24,7 +22,7 @@ public class Customer extends User{
 	public boolean AddInterest(String interest){
 		return this.interest.add(interest);
 	}
-	
+
 	private boolean removeInterest(String interest){
 		return this.interest.remove(interest);
 	}

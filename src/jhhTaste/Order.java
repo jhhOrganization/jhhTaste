@@ -9,7 +9,7 @@ public class Order {
 	private String dateShipped;
 	private String status;
 	private Bill bill;
-	
+
 	public Order(int orderId, Date creationDate, String dateShipped,
 			String status, Bill bill) {
 		super();
@@ -19,6 +19,4 @@ public class Order {
 		this.status = status;
 		this.bill = bill;
 	}
-	
-	
 }
